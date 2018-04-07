@@ -1,0 +1,136 @@
+{   "integrantes" : [
+    {
+        "nombre": "Scott",
+        "apellido": "Summers",
+        "nickname": "Cyclops",
+        "DNI": "35345231",
+        "edad": "17",
+        "sexo" : "M",
+        "foto" : "foto1.jpg",
+        "cartaFavorita": "Firelands portal",
+        "claseFavorita": "Mage"
+    },
+    {
+        "nombre": "Nathan",
+        "apellido": "Summers",
+        "nickname": "Cable",
+        "DNI" : "31234421",
+        "edad": "19",
+        "sexo" : "M",
+        "foto" : "foto2.jpg",
+        "cartaFavorita": "Twisting Nether",
+        "claseFavorita": "Warlock"
+    },
+        {
+        "nombre": "Tony",
+        "apellido": "Stark",
+        "nickname": "IronMan",
+        "DNI" : "28675009",
+        "edad": "25",
+        "sexo" : "M",
+        "foto" : "foto3.jpg",
+        "cartaFavorita": "Dirty Rat",
+        "claseFavorita": "Warrior"
+    },
+        {
+        "nombre": "James",
+        "apellido": "Howlett",
+        "nickname": "Wolverine",
+        "DNI" : "22567221",
+        "edad": "35",
+        "sexo" : "M",
+        "foto" : "foto4.jpg",
+        "cartaFavorita": "Knife Juggler",
+        "claseFavorita": "Paladin"
+    },
+           {
+        "nombre": "Emma",
+        "apellido": "Frost",
+        "nickname": "WhiteQueen",
+        "DNI" : "24987321",
+        "edad": "36",
+        "sexo" : "F",
+        "foto" : "foto5.jpg",
+        "cartaFavorita": "Blizzard",
+        "claseFavorita": "Mage"
+    },
+           {
+        "nombre": "Ororo",
+        "apellido": "Munroe",
+        "nickname": "Storm",
+        "DNI" : "30677832",
+        "edad": "21",
+        "sexo" : "F",
+        "foto" : "foto6.jpg",
+        "cartaFavorita": "Lighting Storm",
+        "claseFavorita": "Shaman"
+    },
+           {
+        "nombre": "Elizabeth ",
+        "apellido": "Braddock",
+        "nickname": "Psylocke",
+        "DNI" : "39987334",
+        "edad": "19",
+        "sexo" : "F",
+        "foto" : "foto7.jpg",
+        "cartaFavorita": "Psychic Scream",
+        "claseFavorita": "Priest"
+    },
+             {
+        "nombre": "Jean",
+        "apellido": "Grey",
+        "nickname": "Phoenix",
+        "DNI" : "25555990",
+        "edad": "25",
+        "sexo" : "F",
+        "foto" : "foto8.jpg",
+        "cartaFavorita": "Flamestrike",
+        "claseFavorita": "Mage"
+    },
+        {
+        "nombre": "Remy",
+        "apellido": "LeBeau",
+        "nickname": "Gambit",
+        "DNI" : "21146890",
+        "edad": "33",
+        "sexo" : "M",
+        "foto" : "foto9.jpg",
+        "cartaFavorita": "Nourish",
+        "claseFavorita": "Druid"
+    },
+             {
+        "nombre": "Robert",
+        "apellido": "Drake",
+        "nickname": "Iceman",
+        "DNI" : "37303022",
+        "edad": "20",
+        "sexo" : "M",
+        "foto" : "foto10.jpg",
+        "cartaFavorita": "Frost Shock",
+        "claseFavorita": "Shaman"
+    },
+        {
+        "nombre": "Wanda",
+        "apellido": "Maximoff",
+        "nickname": "ScarletWitch",
+        "DNI" : "23833110",
+        "edad": "33",
+        "sexo" : "F",
+        "foto" : "foto11.jpg",
+        "cartaFavorita": "Hex",
+        "claseFavorita": "Warrior"
+    },
+             {
+        "nombre": "Pietro",
+        "apellido": "Maximoff",
+        "nickname": "Quicksilver",
+        "DNI" : "22300687",
+        "edad": "29",
+        "sexo" : "M",
+        "foto" : "foto12.jpg",
+        "cartaFavorita": "Sprint",
+        "claseFavorita": "Rouge"
+    }
+    ]
+}
+    

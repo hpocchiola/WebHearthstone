@@ -1,0 +1,14 @@
+{ "institucion": [
+	 {
+		"nombre" : "UNS",
+		"logo": "logouns.jpg",
+		"tipo": "universidad",
+		"ubicación": "8000"
+	},{
+		"nombre" : "UTN BB",
+		"logo": "logoutn.jpg",
+		"tipo": "universidad",
+		"ubicación": "8000"
+	}
+    ]
+}

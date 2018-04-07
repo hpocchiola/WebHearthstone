@@ -1,0 +1,82 @@
+
+.titulo {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    font-family: armWrestler;
+    padding-top: 54px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    float:left;
+}
+
+.lema {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.imagenPortada {
+ padding-top: 26px;
+    width: 100%;
+    height: 100%;
+    background-color: powderblue;
+    
+}
+
+.textoFecha{
+    font-size: 20px;
+    float: center;
+    padding-top: 20%;
+    padding-left: 20%;
+}
+
+.video{
+    width: 455px;
+    height: 315px;
+ }
+
+ .descripcion{
+    font-size: 20px;
+    float: center;
+ }
+ 
+ .leaderboardEquipo{
+     font-size: 20px;
+     float: center;
+     padding-top: 20%;
+     padding-left: 20%;
+ }
+ 
+  .leaderboardJugador{
+     font-size: 20px;
+     float: center;
+     padding-top: 20%;
+     padding-left: 20%;
+ }
+ 
+ .equipos{
+     
+ }
+ .integrantes{
+     
+ }
+ 
+ .equipoLogo{
+   float: center;
+   padding-left: 20%;
+ }
+
+ .integranteFoto{
+   float: center;
+   padding-left: 20%;
+ }
+ 
+ .infoIntegrante{
+ }
+ 
+ .anunciosFoto{
+   float: center;
+   width: 200px;
+   height: 100px;
+ }

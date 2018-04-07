@@ -1,0 +1,11 @@
+{
+       "instancias" : 
+                    [
+                    {"idInstancia": "i1"},
+                    {"idInstancia": "i2"},
+                    {"idInstancia": "i3"},
+                    {"idInstancia": "i4"},
+                    {"idInstancia": "i5"},
+                    {"idInstancia": "i6"}
+                    ]
+}

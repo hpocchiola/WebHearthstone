@@ -1,0 +1,40 @@
+{
+       "equipos" : [
+    {
+    	"nombre": "X-Men",
+   	"institucion": "UNS",
+    	"integrantes": [
+                          {"nickname": "Storm"},
+                          {"nickname": "Iceman"},
+                          {"nickname": "Cyclops"}
+    			]
+    },
+     {
+    	"nombre": "TheAvengers",
+   	"institucion": "UTN BB",
+    	"integrantes": [
+                        {"nickname": "ScarletWitch"},
+                        {"nickname": "IronMan"},
+                        {"nickname": "Quicksilver"}
+    			]
+        },
+         {
+    	"nombre": "X-Force",
+   	"institucion": "UTN BB",
+    	"integrantes": [
+                        {"nickname": "Cable"},
+                        {"nickname": "Wolverine"},
+                        {"nickname": "Psylocke"}
+    			]
+        },
+         {
+    	"nombre": "HellfireClub",
+   	"institucion": "UTN BB",
+    	"integrantes": [
+                        {"nickname": "WhiteQueen"},
+                        {"nickname": "Gambit"},
+                        {"nickname": "Phoenix"}
+    			]
+        }
+    ]
+}
