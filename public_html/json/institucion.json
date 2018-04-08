@@ -1,14 +1,26 @@
 { "institucion": [
 	 {
 		"nombre" : "UNS",
-		"logo": "logouns.jpg",
+		"logo": "logoUNS.jpg",
 		"tipo": "universidad",
-		"ubicación": "8000"
+		"ubicacion": "8000"
 	},{
 		"nombre" : "UTN BB",
-		"logo": "logoutn.jpg",
+		"logo": "logoUTN.jpg",
 		"tipo": "universidad",
-		"ubicación": "8000"
+		"ubicacion": "8000"
+	},
+        {
+		"nombre" : "Juan XXIII",
+		"logo": "logoJUAN.jpg",
+		"tipo": "instituto terciario",
+		"ubicacion": "8000"
+	},
+        {
+		"nombre" : "Siglo 21",
+		"logo": "logoSiglo.jpg",
+		"tipo": "universidad",
+		"ubicacion": "8000"
 	}
     ]
 }

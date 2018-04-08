@@ -1,5 +1,3 @@
-const TOTALEQUIPOS = 4;
-
 var jsonIntegrantes = JSON.parse($.getJSON({'url': "json/integrantes.json", 'async': false}).responseText);
 var jsonEquipos = JSON.parse($.getJSON({'url': "json/equipos.json", 'async': false}).responseText);
 
@@ -37,9 +35,17 @@ return equipoElegido;
 
 function mostrarIntegrantesVacio (){
    for (i = 0; i < 3; i++) {
-       var text = "integrante " + (i+1);
+       var text = "Integrante " + (i+1);
        $("#muestraIntegrantes").append($("<li></li>").addClass("list-group-item").text(text));
    }
+}
+
+function mostrarInformacionVacia (){
+    $("#nombre").text("Nombre: ");
+    $("#apellido").text("Apellido: ");
+    $("#edad").text("Edad: ");
+    $("#favCard").text("Carta Favorita: ");
+    $("#favClass").text("Clase Favorita: ");
 }
 
 function mostrarInformacion (datosEquipos, equipoElegido, datosIntegrantes, idIntegrante){
@@ -63,6 +69,7 @@ function mostrarInformacion (datosEquipos, equipoElegido, datosIntegrantes, idIn
     $("#edad").text("Edad: " + integrante.edad);
     $("#favCard").text("Carta Favorita: " + integrante.cartaFavorita);
     $("#favClass").text("Clase Favorita: " + integrante.claseFavorita);
+    return integrante.foto;
 }
 
 function ordenarIntegrantes (datosEquipos, equipoElegido, datosIntegrantes) {
@@ -78,26 +85,37 @@ function ordenarIntegrantes (datosEquipos, equipoElegido, datosIntegrantes) {
 }
 
 function mostrarIcono(datosEquipos, equipoElegido) {
-    
+   var link = datosEquipos.equipos[equipoElegido].icono;
+   var src = "./imagenes/" + link;
+   $("#equipoLogo").append('<img id="logo" alt="Logo del equipo" src= ' +src+' class="logo"/>');   
+}
+
+function mostrarFoto (foto){
+    var src = "./imagenes/" + foto;
+    $("#integranteFoto").append('<img id="foto" alt="Foto del integrante" src= ' +src+' class="logo"/>');   
 }
 
 function clickEquipo (e) {
     $("#muestraIntegrantes").empty();
+    $("#equipoLogo").empty();
     var id = $(e.target).attr("id");
     var equipoElegido = mostrarIntegrantes(jsonEquipos,id);
+    mostrarIcono(jsonEquipos,equipoElegido);
     $("#muestraIntegrantes").children().on("click", {x:equipoElegido},clickIntegrante);
     $(e.target).addClass("equipoCSS");
     $(e.target).siblings().removeClass("equipoCSS");
     }
     
  function clickIntegrante (e) {
-    //$("#informacionIntegrante").empty();
+     $("#integranteFoto").empty();
     var id = $(e.target).attr("id");
-    mostrarInformacion(jsonEquipos,e.data.x,jsonIntegrantes,id);
+    var foto = mostrarInformacion(jsonEquipos,e.data.x,jsonIntegrantes,id);
+    mostrarFoto (foto);
     $(e.target).addClass("equipoCSS");
     $(e.target).siblings().removeClass("equipoCSS");
  }
 
 $(document).ready(mostrarEquipos(jsonEquipos));
 $(document).ready(mostrarIntegrantesVacio());
+$(document).ready(mostrarInformacionVacia());
 $(document).ready($("#muestraEquipos").children().click(clickEquipo));
